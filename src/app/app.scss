@@ -1,6 +1,5 @@
 // http://ionicframework.com/docs/theming/
 
-
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
@@ -14,3 +13,59 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+$base-color: #01ebc2;
+$base-background-color-tabs: #333333;
+$base-font-color-tabs: #ffffff;
+$base-background-color-tabs-lighter : rgba($base-background-color-tabs, 0.90);
+
+//
+.background-base-color {
+  background-color: $base-color;
+}
+
+::-webkit-scrollbar, *::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+  }
+  
+  ion-content {
+    overflow: hidden;
+    --overflow: hidden;
+  }
+  
+  .scroll-content {
+    overflow: hidden;
+  }
+.scroll-content {
+  margin-top: 35px !important;
+  margin-bottom: 56px !important;
+}
+//
+// NAV PART
+.toolbar-background-md {
+  background-color: $base-background-color-tabs;
+}
+.toolbar-background-md-lighter {
+    background-color: $base-background-color-tabs-lighter;
+  }
+.toolbar-title-md {
+  color: $base-font-color-tabs;
+}
+//
+// TABS PART
+.tabs-md .tabbar {
+  background-color: $base-background-color-tabs;
+}
+.tabs-md .tab-button {
+  color: $base-font-color-tabs;
+}
+.tabs-md .tab-button[aria-selected="true"] {
+  color: $base-font-color-tabs;
+}
+.tabs-md .tab-button-icon {
+  color: $base-font-color-tabs;
+}
+.tabs-md .tab-button[aria-selected="true"] .tab-button-icon {
+  color: $base-font-color-tabs;
+}
+//
