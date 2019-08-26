@@ -14,9 +14,13 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 $base-color: #01ebc2;
+$base-color-lighter: #54fee0;
+$base-color-darken : #01856e;
+
 $base-background-color-tabs: #333333;
 $base-font-color-tabs: #ffffff;
-$base-background-color-tabs-lighter : rgba($base-background-color-tabs, 0.90);
+
+$base-background-color-tabs-lighter : rgba($base-background-color-tabs, 0.50);
 
 //
 .background-base-color {

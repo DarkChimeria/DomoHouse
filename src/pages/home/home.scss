@@ -1,13 +1,32 @@
 page-home {
-.extraTemp{
-    font-size: 12em;
+  .extraTemp {
+    color: white;
+  }
+  .extraCelsius {
+    font-size: 10em;
     text-align: center;
-}
-.extraHours{
-    font-size: 5em;
-}
+    color: $base-color-darken;
+  }
+  .extraHours {
+    font-size: 3em;
+    text-align: left;
+    color: white;
+  }
 
-.noPadding{
+  .extraDay {
+    font-size: 0.5em;
+    text-align: left;
+    color: $base-color-darken;
+  }
+
+  .noPadding {
     padding: 0px;
-}
+  }
+
+  .noMarginTop {
+    margin-top: 0px;
+  }
+  .noMarginBottom {
+    margin-bottom: 0px;
+  }
 }
